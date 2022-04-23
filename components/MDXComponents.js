@@ -6,8 +6,12 @@ import CustomLink from './Link'
 import TOCInline from './TOCInline'
 import Pre from './Pre'
 import { BlogNewsletterForm } from './NewsletterForm'
+import MaplibreGL from './Map/MaplibreGL'
+import OpenLayers from './Map/OpenLayers'
 
 export const MDXComponents = {
+  MaplibreGL,
+  OpenLayers,
   Image,
   TOCInline,
   a: CustomLink,
