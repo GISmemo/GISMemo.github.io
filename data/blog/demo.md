@@ -1,8 +1,11 @@
 ---
 title: 文章範例
 date: 2022-04-23
+lastmod: '2022-04-30'
 tags: ['Demo', 'Map']
 draft: false
+summary: '這邊可以輸入一些文章摘要'
+authors: ['YuChunTsao']
 ---
 
 GIS Memo 主要是介紹一些與 GIS 相關的資訊
