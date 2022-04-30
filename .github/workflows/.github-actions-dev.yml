@@ -17,4 +17,4 @@ jobs:
       - run: npm run export
       - run: node ./scripts/generate-sitemap
       - run: touch ./out/.nojekyll
-      - run: ls ${{ github.workspace }}
+      - run: ls /home/runner/work/GISMemo.github.io/GISMemo.github.io/out
