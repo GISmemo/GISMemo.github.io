@@ -14,7 +14,7 @@
     <guid>https://gismemo.github.io//blog/demo</guid>
     <title>文章範例</title>
     <link>https://gismemo.github.io//blog/demo</link>
-    undefined
+    <description>這邊可以輸入一些文章摘要</description>
     <pubDate>Sat, 23 Apr 2022 00:00:00 GMT</pubDate>
     <author>gismemo.tw@gmail.com (GIS memo)</author>
     <category>Demo</category><category>Map</category>
