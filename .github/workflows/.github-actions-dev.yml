@@ -2,10 +2,8 @@ name: Create Static Site
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - dev
+      
 jobs:
   Build-Next-App:
     runs-on: ubuntu-latest
@@ -16,9 +14,6 @@ jobs:
         with:
           node-version: 16
       - run: npm install
+      - run: node ./scripts/generate-sitemap
       - run: npm run export
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.DEPLOY_TOKEN }}
-          publish_dir: ./out/
+      - run: ls /home/runner/work/GISMemo.github.io/GISMemo.github.io/out
