@@ -17,6 +17,8 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run export
+      - run: node ./scripts/generate-sitemap
+      - run: touch ./out/.nojekyll
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
