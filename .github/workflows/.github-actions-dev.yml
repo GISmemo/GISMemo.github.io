@@ -14,7 +14,6 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - run: npm run export
       - run: node ./scripts/generate-sitemap
-      - run: touch ./out/.nojekyll
+      - run: npm run export
       - run: ls /home/runner/work/GISMemo.github.io/GISMemo.github.io/out
