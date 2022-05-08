@@ -24,7 +24,7 @@ const Introductions = () => {
       {contents.map((content, index) => (
         <p
           key={index}
-          className="list-inside whitespace-pre-wrap indent-8 font-serif text-lg font-medium leading-loose text-neutral-600"
+          className="list-inside whitespace-pre-wrap indent-8 font-serif text-lg font-medium leading-loose text-neutral-600 dark:text-neutral-300"
         >
           {content}
         </p>
