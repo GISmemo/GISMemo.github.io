@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'GIS memo',
   author: 'GIS memo',
   headerTitle: 'GIS memo',
-  description: '一個分享 GIS 相關資訊的地方',
+  description: '用一張張的便利貼，帶你走進空間科學的世界。',
   language: 'zh-tw',
   theme: 'system', // system, dark or light
   siteUrl: 'https://gismemo.github.io/',
