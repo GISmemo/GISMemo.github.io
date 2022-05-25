@@ -15,7 +15,7 @@ const ImageModal = (props) => {
             className="flex min-h-full place-items-center justify-center p-4 sm:items-center sm:p-0"
           >
             <div className="relative">
-              <img className="m-0" onClick={imageClick} {...props.rest} />
+              <img loading="lazy" className="m-0" onClick={imageClick} {...props.rest} />
               <div className="modal-close absolute top-5 right-5 z-50 flex cursor-pointer flex-col items-center rounded-full bg-gray-100 p-2">
                 <svg
                   className="fill-current text-black"
