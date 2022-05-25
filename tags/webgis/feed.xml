@@ -14,7 +14,7 @@
     <guid>https://gismemo.github.io//blog/202205/Sentinel_EO_Browser</guid>
     <title>WebGIS應用：Sentinel EO Browser 空氣污染監測</title>
     <link>https://gismemo.github.io//blog/202205/Sentinel_EO_Browser</link>
-    undefined
+    <description>Sentinel Hub EO Browser 便是一個方便且強大的 WebGIS 系統，讓我們能透過瀏覽器處理遙測影像並分析成果。</description>
     <pubDate>Tue, 24 May 2022 00:00:00 GMT</pubDate>
     <author>gismemo.tw@gmail.com (GIS memo)</author>
     <category>WebGIS</category><category>Remote Sensing</category><category>Air Pollution</category>
