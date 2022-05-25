@@ -4,6 +4,8 @@ date: 2022-05-24
 lastmod: '2022-05-24'
 tags: ['WebGIS', 'Remote Sensing', 'Air Pollution']
 draft: false
+summary: 'Sentinel Hub EO Browser 便是一個方便且強大的 WebGIS 系統，讓我們能透過瀏覽器處理遙測影像並分析成果。'
+images: ['/static/images/202205/Sentinel_EO_Browser/home_page.png']
 authors: ['ChiaCheChang']
 ---
 
