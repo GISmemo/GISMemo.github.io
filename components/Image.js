@@ -10,8 +10,8 @@ const Image = ({ ...rest }) => {
 
   return (
     <div>
+      <img loading="lazy" onClick={imageClick} {...rest} />
       {isLarge && <ImageModal onClose={imageClick} rest={rest} />}
-      {!isLarge && <img onClick={imageClick} {...rest} />}
     </div>
   )
 }
