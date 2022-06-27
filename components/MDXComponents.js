@@ -8,10 +8,12 @@ import Pre from './Pre'
 import { BlogNewsletterForm } from './NewsletterForm'
 import MaplibreGL from './Map/MaplibreGL'
 import OpenLayers from './Map/OpenLayers'
+import ShapefileViewMap from './Map/ShapefileViewMap/ShapefileViewMap'
 
 export const MDXComponents = {
   MaplibreGL,
   OpenLayers,
+  ShapefileViewMap,
   Image,
   TOCInline,
   a: CustomLink,

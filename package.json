@@ -17,6 +17,7 @@
     "@mailchimp/mailchimp_marketing": "^3.0.58",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/typography": "^0.5.0",
+    "@turf/turf": "^6.5.0",
     "autoprefixer": "^10.4.0",
     "esbuild": "^0.13.13",
     "github-slugger": "^1.3.0",
@@ -31,6 +32,7 @@
     "preact": "^10.6.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-virtualized": "^9.22.3",
     "reading-time": "1.3.0",
     "rehype-autolink-headings": "^6.1.0",
     "rehype-citation": "^0.4.0",
@@ -42,6 +44,7 @@
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
     "sharp": "^0.28.3",
+    "shpjs": "^4.0.2",
     "tailwindcss": "^3.0.23",
     "unist-util-visit": "^4.0.0"
   },
