@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>GIS memo</title>
+      <link>https://gismemo.github.io//blog</link>
+      <description>用一張張的便利貼，帶你走進空間科學的世界。</description>
+      <language>zh-tw</language>
+      <managingEditor>gismemo.tw@gmail.com (GIS memo)</managingEditor>
+      <webMaster>gismemo.tw@gmail.com (GIS memo)</webMaster>
+      <lastBuildDate>Fri, 24 Jun 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://gismemo.github.io//tags/shapefile/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://gismemo.github.io//blog/202206/What-is-a-shapefile</guid>
+    <title>Shapefile 與它的附屬檔案們</title>
+    <link>https://gismemo.github.io//blog/202206/What-is-a-shapefile</link>
+    <description>本篇文章將介紹什麼是 Shapefile，以及告訴大家，通常一個 Shapefile 資料格式由哪些檔案組成。</description>
+    <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
+    <author>gismemo.tw@gmail.com (GIS memo)</author>
+    <category>Shapefile</category>
+  </item>
+
+    </channel>
+  </rss>
