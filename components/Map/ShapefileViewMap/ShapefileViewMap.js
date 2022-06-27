@@ -95,8 +95,8 @@ const ShapefileViewMap = () => {
     map.addControl(new maplibregl.NavigationControl())
     map.addControl(
       new MaplibreGLButtonControl({
-        className: 'maplibregl-ctrl-full-extend',
-        title: 'Full Extend',
+        className: 'maplibregl-ctrl-full-extent',
+        title: 'Full Extent',
         eventHandler: function () {
           let source = map.getSource('upload-data-source-id')
           if (source === undefined) return
