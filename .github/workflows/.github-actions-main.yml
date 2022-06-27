@@ -1,8 +1,5 @@
 name: Create Static Site
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
